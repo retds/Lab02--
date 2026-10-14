@@ -12,3 +12,4 @@ C:\Users\Витек\Documents\Lab02-Тарасов\obj\Debug\net10.0\refint\Lab0
 C:\Users\Витек\Documents\Lab02-Тарасов\obj\Debug\net10.0\Lab02-Тарасов.pdb
 C:\Users\Витек\Documents\Lab02-Тарасов\obj\Debug\net10.0\Lab02-Тарасов.genruntimeconfig.cache
 C:\Users\Витек\Documents\Lab02-Тарасов\obj\Debug\net10.0\ref\Lab02-Тарасов.dll
+C:\Users\Витек\Documents\Lab02-Тарасов\obj\Debug\net10.0\Lab02-Тарасов.sourcelink.json
