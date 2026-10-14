@@ -136,3 +136,21 @@ string firstName = Console.ReadLine();
 char firstLetterOfName = firstName[0];
 
 Console.WriteLine($"Фамилия И. (например, {lastName} {firstLetterOfName}.)");
+
+Console.WriteLine();
+Console.WriteLine("=== TryParse для разных типов ===");
+
+Console.Write("Введите целое число: ");
+string intInput = Console.ReadLine();
+bool intSuccess = int.TryParse(intInput, out int intResult);
+Console.WriteLine($"Успешно: {intSuccess}, значение: {intResult}");
+
+Console.Write("Введите дробное число (например, 3.14): ");
+string doubleInput = Console.ReadLine();
+bool doubleSuccess = double.TryParse(doubleInput, out double doubleResult);
+Console.WriteLine($"Успешно: {doubleSuccess}, значение: {doubleResult}");
+
+Console.Write("Введите дату в формате дд.мм.гггг (например, 15.03.2006): ");
+string dateInput = Console.ReadLine();
+bool dateSuccess = DateTime.TryParse(dateInput, out DateTime dateResult);
+Console.WriteLine($"Успешно: {dateSuccess}, значение: {dateResult:d}");
