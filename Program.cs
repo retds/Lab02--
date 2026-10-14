@@ -123,3 +123,16 @@ double weight = double.Parse(Console.ReadLine());
 double bmi = weight / (height * height);
 
 Console.WriteLine($"ИМТ: {bmi:F2}");
+
+Console.WriteLine();
+Console.WriteLine("=== Разбор ФИО ===");
+
+Console.Write("Введите фамилию: ");
+string lastName = Console.ReadLine();
+
+Console.Write("Введите имя: ");
+string firstName = Console.ReadLine();
+
+char firstLetterOfName = firstName[0];
+
+Console.WriteLine($"Фамилия И. (например, {lastName} {firstLetterOfName}.)");
